@@ -1,0 +1,180 @@
+body {
+    background-color: #FFFBEE;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+.background {
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    position: relative;
+    z-index: 1;
+    margin: 9%;
+}
+
+main * {
+    margin: 0;
+}
+
+span {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+p {
+    font-size: 24px;
+    line-height: 31.2px;
+    color: #272727;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 36px;
+    color: #272727;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+a {
+    color: #0068FD;
+    font-size: 24px;
+    line-height: 31.2px;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+img {
+    margin: 16px 0;
+    width: 100%;
+    object-fit: cover;
+    height: 16px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.links * {
+    margin-bottom: 12px;
+}
+
+.circle {
+    border-radius: 50%;
+    height: 240px;
+    width: 240px;
+    opacity: 70%;
+    position: absolute;
+}
+
+.green {
+    background: #D9FF70;
+    top:-64px;
+    left: -64px;
+}
+
+.red {
+    background: #FF6C6C;
+    bottom: -120px;
+    right: 120px;
+}
+
+.blue {
+    background: #7AADF9;
+    bottom: -60px;
+    right: -60px;
+}
+
+@media only screen and (min-width: 768px) {
+    .circle {
+        height: 480px;
+        width: 480px;
+    }
+    
+    .green {
+        top: -168px;
+        left: -144px;
+    }
+    
+    .red {
+        bottom: -192px;
+        right: 192px;
+    }
+    
+    .blue {
+        bottom: -96px;
+        right: -120px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    span {
+        font-size: 24px;
+    }
+
+    h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    p {
+        font-size: 42px;
+        line-height: 62.4px;
+        margin-bottom: 40px;
+    }
+
+    a {
+        font-size: 42px;
+    }
+
+    .links {
+        margin-bottom: 40px;
+    }
+
+    .links * {
+        margin-bottom: 24px;
+    }
+
+    img {
+        margin: 40px 0;
+        width: auto;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    main {
+        width: 84%;
+        max-width: 1160px;
+        margin: 0 auto;
+        padding: 48px 0;
+    }
+
+    p {
+        font-size: 42px;
+        line-height: 62.4px;
+    }
+
+    .links {
+        flex-direction: row;
+    }
+
+    .links * {
+        margin-right: 24px;
+        margin-bottom: 0;
+    }
+}
