@@ -1,1 +1,1 @@
-I'm in the middle of redesigning my website to include my latest projects. This is just a placeholder while the site is under construction.
+I no longer use Github pages to host my site. Checkout my new site: https://natalieduerr.com/
