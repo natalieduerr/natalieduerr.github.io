@@ -1,1 +1,1 @@
-I no longer use Github pages to host my site. Checkout my new site: https://natalieduerr.com/
+I no longer use GitHub pages to host my site. Check out my new site: https://natalieduerr.com/
